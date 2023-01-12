@@ -39,6 +39,7 @@ export default class Consumer {
         requestHeaders: this.requestHeaders,
         emitMemberOnce: true,
         disableSynchronization: false,
+        dereferenceMembers: true,
       },
       this.initialState
     );
